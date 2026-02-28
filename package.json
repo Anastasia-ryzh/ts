@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "main": "temp.js",
   "scripts": {
-    "test": "echo \"Error: no 5678 test specified\" && exit 1", 
-    "start": "node temp"
+    "transpile": "npx tsc script.ts && node scripts",
+    "start": "node temp",
+    "test": "echo \"Error: no 5678 test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
-
