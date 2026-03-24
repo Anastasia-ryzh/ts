@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+ol {
+  max-width: 500px;
+  margin: 40px auto;
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+li {
+  text-align: left;
+  font-family: 'Times New Roman', serif;
+}
